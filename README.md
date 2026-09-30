@@ -9,6 +9,9 @@ index.html   page content (menu, reviews, contact details)
 styles.css   all styling, including dark mode
 script.js    opening hours, live open/closed status, scroll effects
 favicon.svg  site icon
+
+interval-eatery-standalone.html   the whole site in one file, for sharing or
+                                  opening straight from your computer
 ```
 
 ## Preview locally
@@ -28,6 +31,9 @@ python3 -m http.server 8000
   a closed day. The open/closed status always uses Rotorua time (`Pacific/Auckland`).
 - **Menu, reviews and copy:** edit the text in `index.html`.
 - **Colours and fonts:** edit the variables at the top of `styles.css`.
+- **Standalone file:** `interval-eatery-standalone.html` is a copy of the site with the
+  styles and script built in. It doesn't update itself, so after editing the main files,
+  delete it or ask for it to be regenerated.
 
 ## Deploying
 
